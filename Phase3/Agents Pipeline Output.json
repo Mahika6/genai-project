@@ -1,0 +1,48 @@
+{
+  "candidate_name": "Priya Sharma",
+  "job_title": "Data Scientist",
+  "overall_score": 74.5,
+  "decision": "Shortlist",
+  "section_scores": {
+    "skill_match": 50.0,
+    "semantic_fit": 59.9,
+    "experience": 100.0,
+    "role_fit": 74.5
+  },
+  "matched_skills": [
+    "python",
+    "machine learning",
+    "r",
+    "sql"
+  ],
+  "missing_skills": [
+    {
+      "skill": "deep learning",
+      "importance": "Must-have",
+      "reason": "deep learning is a core requirement for this role"
+    },
+    {
+      "skill": "spark",
+      "importance": "Must-have",
+      "reason": "spark is a core requirement for this role"
+    },
+    {
+      "skill": "aws",
+      "importance": "Must-have",
+      "reason": "aws is a core requirement for this role"
+    },
+    {
+      "skill": "docker",
+      "importance": "Must-have",
+      "reason": "docker is a core requirement for this role"
+    }
+  ],
+  "explanation": "Priya Sharma scored 74.5/100 and is strong candidate for Data Scientist. Matching skills include: python, machine learning, r, sql. Critical gaps are: deep learning, spark, aws, docker. Strengths: jd skill count, skill overlap, sbert similarity. Areas to improve: resume skill count, edu level jd, missing skill count.",
+  "improvements": [
+    "Add missing critical skills to your resume: deep learning, spark, aws. Take a short online course and add a project using these.",
+    "Your resume language does not closely mirror the job description. Use the same keywords and phrases from the JD in your resume bullets.",
+    "Ensure your resume is in a clean single-column format for better ATS parsing."
+  ],
+  "ats_score": 62,
+  "ats_reasoning": "Resume partially matches ATS requirements \u2014 add missing keywords."
+}

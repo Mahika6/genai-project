@@ -1,0 +1,33 @@
+{
+  "candidate": "Candidate",
+  "job_title": "Target Role",
+  "overall_score": 69.0,
+  "label": "Maybe",
+  "section_scores": {
+    "Skill Match": 100.0,
+    "Semantic Fit": 100.0,
+    "Experience": 100.0,
+    "Role Fit": 69.0
+  },
+  "matched_skills": [
+    "r"
+  ],
+  "missing_skills": [],
+  "explanation": "Candidate scored 69.0/100 and is a borderline match for Target Role. Matching skills: r. ",
+  "improvements": [
+    "Add quantifiable achievements (e.g. improved accuracy by 15%).",
+    "Add quantifiable achievements (e.g. improved accuracy by 15%).",
+    "Add quantifiable achievements (e.g. improved accuracy by 15%)."
+  ],
+  "ats_score": 100,
+  "pos_factors": [
+    "sbert similarity",
+    "skill overlap",
+    "exp years required"
+  ],
+  "neg_factors": [
+    "jd skill count",
+    "resume skill count",
+    "resume text len"
+  ]
+}
