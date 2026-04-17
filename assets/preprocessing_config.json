@@ -1,0 +1,53 @@
+{
+  "feature_cols": [
+    "feat_skill_overlap",
+    "feat_resume_skill_count",
+    "feat_jd_skill_count",
+    "feat_missing_skill_count",
+    "feat_edu_match",
+    "feat_edu_level_resume",
+    "feat_edu_level_jd",
+    "feat_exp_years_required",
+    "feat_resume_text_len",
+    "feat_sbert_similarity"
+  ],
+  "regression_target": "matched_score",
+  "classification_target": "label",
+  "class_labels": [
+    "Reject",
+    "Maybe",
+    "Shortlist"
+  ],
+  "edu_rank_map": {
+    "phd": 5,
+    "ph.d": 5,
+    "doctorate": 5,
+    "m.tech": 4,
+    "mtech": 4,
+    "m.sc": 4,
+    "msc": 4,
+    "mba": 4,
+    "master": 4,
+    "m.e": 4,
+    "b.tech": 3,
+    "btech": 3,
+    "b.sc": 3,
+    "bsc": 3,
+    "b.e": 3,
+    "bachelor": 3,
+    "be": 3,
+    "diploma": 2,
+    "hsc": 1,
+    "ssc": 1
+  },
+  "split_random_state": 42,
+  "train_size": 5428,
+  "val_size": 1160,
+  "test_size": 1163,
+  "total_clean_rows": 7751,
+  "unique_jobs": 23,
+  "unique_skills_in_rag": 2831,
+  "sbert_model": "all-MiniLM-L6-v2",
+  "faiss_index_path": "outputs/skill_faiss.index",
+  "skill_corpus_path": "outputs/skill_corpus.json"
+}
